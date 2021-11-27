@@ -1,0 +1,28 @@
+{
+    "name": "wishusucess/stickycart",
+    "description": "Wishusucess Sticky Cart",
+    "require": {
+        "wishusucess/core": "^1.0.0"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Wishusucess",
+            "email": "support@wishusucess.com",
+            "homepage": "https://www.wishusucess.com",
+            "role": "Technical Support"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Wishusucess\\Stickycart\\": ""
+        }
+    }
+}
